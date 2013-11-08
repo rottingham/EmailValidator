@@ -1,0 +1,25 @@
+{
+	"name" : "rottingham/emailvalidator",
+	"type" : "library",
+	"description" : "Validate Email Address and use SMTP Lookup to verify MX Record lookups",
+	"keywords" : ["url", "email", "smtp", "mxrecord", "validate", "format"],
+	"homepage" : "https://github.com/rottingham/EmailValidator",
+	"license" : "MIT",
+	"authors" : [
+		{
+			"name" : "Ralph Brickley",
+			"email" : "brickleyralph@gmail.com",
+			"homepage" : "https://github.com/rottingham",
+			"role" : "Developer"
+		}
+	],
+	"require" : {
+		"php" : ">=5.0"
+	},
+	"autoload": {
+		"classmap": [
+			"src/com/rottingham/EmailValidator/EmailValidator.class.php",
+			"src/com/rottingham/SmtpLookup/SmtpLookup.class.php"
+		]
+	}
+}
