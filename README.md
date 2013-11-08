@@ -5,7 +5,7 @@ Utility Class to validate Email address string as well as determine if the Email
 
 For extended usage examples, see test files.
 
-**Composer Reader**
+**Composer Ready**
 
 #### Sample Usage
 
